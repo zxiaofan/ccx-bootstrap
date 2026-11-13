@@ -83,7 +83,7 @@ function Invoke-CcxBootstrap {
         & $gh auth login --hostname github.com --git-protocol https --web
         if ($LASTEXITCODE -ne 0) { throw 'GitHub 登录未完成；重试同一 URL。' }
     }
-    $raw = & $gh api --method GET 'repos/zxiaofan/ccx/contents/setup-windows.ps1?ref=v2026.11.13.6' -H 'Accept: application/vnd.github.raw+json'
+    $raw = & $gh api --method GET 'repos/zxiaofan/ccx/contents/setup-windows.ps1?ref=v2026.11.13.7' -H 'Accept: application/vnd.github.raw+json'
     if ($LASTEXITCODE -ne 0 -or -not $raw) {
         throw '当前 GitHub 账号无 CCX 仓库权限或网络不可用；获得权限后重试同一 URL。'
     }
