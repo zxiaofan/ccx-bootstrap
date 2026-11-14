@@ -20,4 +20,4 @@ Windows 支持 x64，Linux 支持 amd64。Windows 缺 gh 时由 winget 安装并
 
 默认 Windows 安装目录 %LOCALAPPDATA%\CCX（ccx.exe／ccxExe.cmd），Linux ~/.local/bin（ccx／ccxExe）。重新打开终端后从任意目录执行 ccxExe status；网关已停止也可执行 ccxExe restart。正式新版本发布后，迁移后的 ccxExe update 和主人私聊“升级”均下载二进制包。
 
-脚本与私有 CCX v2026.11.14.7 的 bootstrap-windows.ps1／bootstrap-linux.sh 对应。源码、密钥与运行状态不在本仓库。[使用手册](https://github.com/zxiaofan/ccx/blob/main/docs/operations/CCX-新电脑安装手册.md)和[发布验证](https://github.com/zxiaofan/ccx/blob/main/docs/validation/CCX-预编译分发安装重装升级验证-20261114.md)需仓库读取权限。真实飞书收发、原 AI 续聊及登录后自启动在目标设备另验。
+脚本与私有 CCX v2026.11.14.8 的 bootstrap-windows.ps1／bootstrap-linux.sh 对应。源码、密钥与运行状态不在本仓库。[使用手册](https://github.com/zxiaofan/ccx/blob/main/docs/operations/CCX-新电脑安装手册.md)和[发布验证](https://github.com/zxiaofan/ccx/blob/main/docs/validation/CCX-预编译分发安装重装升级验证-20261114.md)需仓库读取权限。真实飞书收发、原 AI 续聊及登录后自启动在目标设备另验。
